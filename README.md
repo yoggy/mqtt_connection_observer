@@ -18,7 +18,7 @@ Usage
         mqtt_topic:     topic_name
         check_interval: 10
     
-    $ ./mqtt_connection_observer.rb config.yaml
+    $ ./mqtt_connection_observer.rb config.yaml | tee log.txt
     
 Copyright and license
 ----
